@@ -1,38 +1,98 @@
 .App {
-  text-align: center;
+
+  background: #181921;
+  height: 100vh;
+}
+.navbar.has-shadow {
+  box-shadow: 0 1px 0 0 #2C2D3B!important;
+}
+.notification-tag:after {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  top: -2px;
+  right: -1px;
+  background: #F44336!important;
+  border-radius: 9999px;
+  border: 1px solid #181921;
+}
+.is-circular {
+  border-radius: 50%;
+}
+.border-right {
+  border-right: solid 1px #2c2d3b;
+ 
+}
+.full_screen{height:calc(100vh - 51.996px);}
+.has-background-theme {
+  background: #EB9E2C!important;
+}
+.has-color-theme {
+  color: #EB9E2C!important;
+}
+.inner-content {
+ border: 1px solid #2a2b38;
+  border-radius: 4px; flex-basis: 100%;
+}
+.inner-content:hover{
+background: #2C2D3B;
+}
+.media+.media {
+  border-top: 0!important;
+  margin-top: 0rem!important;
+  padding-top: 0rem!important;
+}
+.has-purle-bg {
+  background: #9F58C0!important;
+}
+.has-sky-bg {
+  background: #587BC0!important;
+}
+.head-bar {
+  border-bottom: 1px solid #2a2b38;
+}
+.tabs::-webkit-scrollbar {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Hide scrollbar for IE, Edge and Firefox */
+.tabs {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabs a {
+  color: #858697!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.tabs li.is-active a {
+  border-bottom-color: #EB9E2C!important;
+  color: #fff!important;
+}
+.tabs a {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  border-bottom-color:transparent!important;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-top: 0.2em!important;
+  padding-bottom: 0.6em!important;
 
-.App-link {
-  color: #61dafb;
 }
+.tabs ul {
+border-bottom-color: transparent!important;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.article-meta {
+  border-top: solid 1px #2a2b38;
+  border-bottom: solid 1px #2a2b38;
+}
+.content figure  {
+  flex: 0 0 auto;
+}
+.info p{margin:0!important}
+.control {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  font-size: 1rem;
+  position: relative;
+  text-align: inherit;
 }
