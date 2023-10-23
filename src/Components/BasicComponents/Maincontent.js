@@ -159,7 +159,7 @@ function Maincontent() {
     <button class="button is-link">Submit</button>
   </div>
   <div class="control">
-    <button class="button is-link is-light">Cancels</button>
+    <button class="button is-link is-light">Cancelss</button>
   </div>
 </div>
 
