@@ -96,3 +96,21 @@ border-bottom-color: transparent!important;}
   position: relative;
   text-align: inherit;
 }
+.bottom {
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+
+}
+.bottom .input {
+  box-shadow: none!important;
+  max-width: 100%;
+  width: 100%;
+  background: #20212E!important;
+  border-color: #2c2d3b!important; height:3.5em!important;
+}
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+
+  height:3.5em!important;
+}

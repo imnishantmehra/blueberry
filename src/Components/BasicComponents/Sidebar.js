@@ -47,6 +47,15 @@ function Sidebar() {
    </div>
 </article>
 
+
+<article className="media mb-4 px-4">
+    <div className="inner-content px-5 py-5">
+   <h4 className="post-subtitle has-text-centered">
+    <a href="#"><span className="has-text-grey">+ start a new conversation</span></a>
+  </h4>
+   </div>
+</article>
+
   
   </aside>
     
