@@ -1,5 +1,7 @@
-.navbar.has-shadow {
-    box-shadow: 0 1px 0 0 #2c2d3b !important;
+  @import '../../variables';
+  
+  .navbar.has-shadow {
+    box-shadow: 0 1px 0 0 $primary-border-color !important;
   }
   .notification-tag:after {
     content: "";
@@ -10,5 +12,5 @@
     right: -1px;
     background: #f44336 !important;
     border-radius: 9999px;
-    border: 1px solid #181921;
+    border: 1px solid $primary-bg-color;
   }

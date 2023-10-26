@@ -1,0 +1,25 @@
+@import '../../variables';
+
+.custom-background {
+	background-color: $primary-bg-color !important;
+	border-color: $primary-border-color !important;
+	color: $text-color !important;
+}
+.custom-placeholder-color::placeholder {
+	color: $text-color !important;
+}
+.custom-option-color {
+	color: $text-color !important;
+}
+.custom-selected-option {
+	color: $text-color !important;
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: $text-color !important;
+}
+.bottom-border {
+	border-top: solid 1px $primary-border-color;
+}
+.meta-info {
+	font-size: 14px;
+}

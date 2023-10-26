@@ -1,6 +1,6 @@
 import React from 'react'
 import RetrievePNR from "./RetrievePNR"; 
-import '../../StyleComponents/RightSidebar.css'
+import '../../StyleComponents/RightSidebar.scss'
 
 function RightSidebar() {
   return (

@@ -1,0 +1,22 @@
+@import './variables';
+
+.App {
+  background: $primary-bg-color;
+  height: 100vh;
+}
+
+.is-circular {
+  border-radius: 50%;
+}
+.border-right {
+  border-right: solid 1px $primary-border-color;
+}
+.full_screen {
+  height: calc(100vh - 51.996px);
+}
+.has-background-theme {
+  background: $has-color !important;
+}
+.head-bar {
+  border-bottom: 1px solid $inner-content-color;
+}
