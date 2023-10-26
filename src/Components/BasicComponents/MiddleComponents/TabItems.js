@@ -7,25 +7,25 @@ function TabItems({ activeTab, setActiveTab }) {
       <div className="tabs is-medium">
         <ul>
           <li className={activeTab === 1 ? "is-active" : ""}>
-            <a onClick={() => setActiveTab(1)} href="">Free Flow</a>
+            <a onClick={() => setActiveTab(1)}>Free Flow</a>
           </li>
           <li className={activeTab === 2 ? "is-active" : ""}>
-            <a onClick={() => setActiveTab(2)} href="">Fare rules</a>
+            <a onClick={() => setActiveTab(2)}>Fare rules</a>
           </li>
           <li className={activeTab === 3 ? "is-active" : ""}>
-            <a onClick={() => setActiveTab(3)} href="">Tech Support</a>
+            <a onClick={() => setActiveTab(3)}>Tech Support</a>
           </li>
           <li className={activeTab === 4 ? "is-active" : ""}>
-            <a onClick={() => setActiveTab(4)} href="">Travel Policy</a>
+            <a onClick={() => setActiveTab(4)}>Travel Policy</a>
           </li>
           <li className={activeTab === 5 ? "is-active" : ""}>
-            <a onClick={() => setActiveTab(5)} href="">GDS manuals</a>
+            <a onClick={() => setActiveTab(5)}>GDS manuals</a>
           </li>
           <li className={activeTab === 6 ? "is-active" : ""}>
-            <a onClick={() => setActiveTab(6)} href="">Supplier Info</a>
+            <a onClick={() => setActiveTab(6)}>Supplier Info</a>
           </li>
           <li className={activeTab === 7 ? "is-active" : ""}>
-            <a onClick={() => setActiveTab(7)} href="">Upset calls</a>
+            <a onClick={() => setActiveTab(7)}>Upset calls</a>
           </li>
         </ul>
       </div>

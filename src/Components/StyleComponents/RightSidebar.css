@@ -1,0 +1,23 @@
+.custom-background {
+	background-color: #181921 !important;
+	border-color: #2C2D3B !important;
+	color: #858697 !important;
+}
+.custom-placeholder-color::placeholder {
+	color: #858697 !important;
+}
+.custom-option-color {
+	color: #858697 !important;
+}
+.custom-selected-option {
+	color: #858697 !important;
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #858697 !important;
+}
+.bottom-border {
+	border-top: solid 1px #2c2d3b;
+}
+.meta-info {
+	font-size: 14px;
+}
