@@ -1,0 +1,16 @@
+.inner-content {
+  border: 1px solid #2a2b38;
+  border-radius: 4px;
+  flex-basis: 100%;
+}
+.has-color-theme {
+  color: #eb9e2c !important;
+}
+.inner-content:hover {
+  background: #2c2d3b;
+}
+.media + .media {
+    border-top: 0 !important;
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+  }

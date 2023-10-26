@@ -1,4 +1,5 @@
 import React from "react";
+import '../../StyleComponents/MainContent.css'
 
 function TabItems({ activeTab, setActiveTab }) {
   return (

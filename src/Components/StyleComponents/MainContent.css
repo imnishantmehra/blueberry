@@ -1,0 +1,65 @@
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tabs {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.tabs a {
+  color: #858697 !important;
+}
+.tabs li.is-active a {
+  border-bottom-color: #eb9e2c !important;
+  color: #fff !important;
+}
+.tabs a {
+  align-items: center;
+  border-bottom-color: transparent !important;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-top: 0.2em !important;
+  padding-bottom: 0.6em !important;
+}
+.tabs ul {
+  border-bottom-color: transparent !important;
+}
+
+.article-meta {
+  border-top: solid 1px #2a2b38;
+  border-bottom: solid 1px #2a2b38;
+}
+.content figure {
+  flex: 0 0 auto;
+}
+.info p {
+  margin: 0 !important;
+}
+.control {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  font-size: 1rem;
+  position: relative;
+  text-align: inherit;
+}
+.bottom {
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    bottom: 0;
+    border-top: solid 1px #2c2d3b;
+}
+.bottom .input {
+  box-shadow: none !important;
+  max-width: 100%;
+  width: 100%;
+  background: #20212e !important;
+  border-color: #2c2d3b !important;
+  height: 3.5em !important;
+}
+.control.has-icons-left .icon,
+.control.has-icons-right .icon {
+  height: 3.5em !important;
+}

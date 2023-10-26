@@ -1,5 +1,6 @@
 import React from "react";
 import ArticleCard from "./ArticleCard"; 
+import '../../StyleComponents/LeftSidebar.css'
 
 function LeftSidebar() {
   return (
