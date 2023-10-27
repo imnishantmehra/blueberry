@@ -14,3 +14,19 @@
     border-radius: 9999px;
     border: 1px solid $primary-bg-color;
   }
+  a.navbar-item:hover, a.navbar-item:focus {
+    background-color: $transparent-color !important;
+  }
+  .navbar-item.has-dropdown:hover .navbar-link {
+    background-color: $transparent-color !important;
+  }
+  .navbar-link:hover {
+    background-color: $transparent-color !important;
+  }
+  .navbar-dropdown {
+    background-color: #4b4444 !important;
+    border-top: none !important;
+  }
+  .navbar-link:not(.is-arrowless)::after {
+    display: none !important;
+  }

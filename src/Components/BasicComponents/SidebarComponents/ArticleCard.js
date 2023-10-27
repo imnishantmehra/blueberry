@@ -1,6 +1,6 @@
 import React from "react";
 
-function ArticleCard({ title, date }) {
+function ArticleCard({ title, date, msgCate, color }) {
   return (
     <article className="media mb-4 px-4">
       <div className="inner-content px-5 py-4">
@@ -9,6 +9,7 @@ function ArticleCard({ title, date }) {
           <i className="fa fa-circle mr-2 is-size-7 has-color-theme"></i>
           <span className="has-text-grey">{date}</span>
         </h4>
+        <span className={`tag is-link is-rounded is-uppercase ${color}`}>{msgCate}</span>
       </div>
     </article>
   );

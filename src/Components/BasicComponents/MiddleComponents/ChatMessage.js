@@ -32,8 +32,8 @@ function ChatMessage({ activeTab }) {
                 </div>
               </div>
               <div className="article-meta is-flex is-flex-wrap-wrap is-align-items-center px-5 py-5">
-                <figure class="image is-32x32 mb-0 ml-0 mr-4">
-                  <img src="chat_avatar.png" />
+                <figure className="image is-32x32 mb-0 ml-0 mr-4">
+                  <img src="chat_avatar.png" alt="" />
                 </figure>
                 <div className="meta-info">
                   <div className="author has-text-white">
@@ -43,8 +43,8 @@ function ChatMessage({ activeTab }) {
               </div>
 
               <div className="response is-flex px-5 py-5">
-                <figure class="image is-32x32 mb-0 ml-0 mr-4">
-                  <img src="small-logo.png" />
+                <figure className="image is-32x32 mb-0 ml-0 mr-4">
+                  <img src="small-logo.png" alt="" />
                 </figure>
                 <div className="meta-info">
                   <div className="author has-text-white has-text-weight-bold mb-2">

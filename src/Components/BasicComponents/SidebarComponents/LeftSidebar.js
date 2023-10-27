@@ -18,11 +18,15 @@ function LeftSidebar() {
       <ArticleCard
         title="I have an error AIRLINE SYSTEM UNAB..."
         date="Monday, Jan 12, 2023"
+        msgCate="gds manuals"
+        color="is-warning"
       />
 
       <ArticleCard
         title="Another article title"
         date="Tuesday, Feb 22, 2023"
+        msgCate="travel policy"
+        color="is-primary"
       />
 
       {/* Add more ArticleCard components as needed for your articles */}
@@ -30,12 +34,15 @@ function LeftSidebar() {
       <ArticleCard
         title="Yet another article title"
         date="Wednesday, Mar 15, 2023"
+        msgCate="it support"
+        color="is-success"
       />
 
-      <ArticleCard
-        title="+ start a new conversation"
-        date=""
-      />
+      <article className="media mb-4 px-4">
+        <div className="inner-content px-6 py-4">
+          <h2 className="subtitle is-6 mb-1 has-text-grey">+ start a new conversation</h2>
+        </div>
+      </article>
     </aside>
   );
 }
