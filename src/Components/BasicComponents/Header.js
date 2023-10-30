@@ -1,8 +1,14 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import '../StyleComponents/Header.scss'
+import { useAuth0 } from '@auth0/auth0-react';
 
 function Header() {
+  const {
+    user,
+    isAuthenticated,
+    logout,
+  } = useAuth0();
   return (
     <>
       <header className="header hero is-transparent">
@@ -27,14 +33,20 @@ function Header() {
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link className="navbar-link" to="">
                   <figure className="image  is-user-avatar">
-                    <img src="intersect.png" alt="" />
+                    <img class="is-rounded" src={user.picture} alt="" />
                   </figure>
-                  <span className="ml-2 has-text-white ">Alex R.</span>
+                  <span className="ml-2 has-text-white ">{user.nickname}</span>
                 </Link>
                 <div className="navbar-dropdown">
-                  <Link to="/" className="navbar-item has-text-white">
-                    Logout
-                  </Link>
+                  {isAuthenticated && (
+                    <Link onClick={() => {
+                      logout({ 
+                        logoutParams: {
+                          returnTo: window.location.origin
+                        }
+                      });
+                    }} className="navbar-item has-text-white">Logout</Link>
+                  )}
                 </div>
               </div>
             </div>

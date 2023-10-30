@@ -1,0 +1,44 @@
+[
+  {
+  	"id": 1,
+  	"name": "Free Flow",
+  	"request": "What is the penalty for a no-show on this ticket?",
+  	"content": "So in case of a no-show, the ticket will have no value and the fare and taxes paid will be forfeited. No refunds or future travel credits will be permitted for a no-show with this ticket."
+  },
+  {
+  	"id": 2,
+  	"name": "Fare rules",
+  	"request": "What is the penalty?",
+  	"content": "So in case of a no-show, the ticket will have no value and the fare and taxes paid will be forfeited. No refunds or future travel."
+  },
+  {
+  	"id": 3,
+  	"name": "Tech Support",
+  	"request": "What is this?",
+  	"content": "So in case of a no-show, the ticket will have no value and the fare and taxes paid will be forfeited. No refunds or future travel credits will be permitted for a no-show with this ticket."
+  },
+  {
+  	"id": 4,
+  	"name": "Travel Policy",
+  	"request": "What is the penalty for a no-show on this ticket?",
+  	"content": "According to the fare rules, for this ticket: Cancellations are not allowed. Tickets have no value if flights are not cancelled prior to departure or for no-show."
+  },
+  {
+  	"id": 5,
+  	"name": "GDS manuals",
+  	"request": "What is this ticket?",
+  	"content": "According to the fare rules, for this ticket:"
+  },
+  {
+  	"id": 6,
+  	"name": "Supplier Info",
+  	"request": "What is the penalty for a no-show on this ticket?",
+  	"content": "According to the fare rules"
+  },
+  {
+  	"id": 7,
+  	"name": "Upset calls",
+  	"request": "What is the penalty for a no-show?",
+  	"content": "According to the fare rules, Test"
+  }
+]
