@@ -1,7 +1,7 @@
 import React from "react";
 import Avatar from "./Avatar";
 
-function Response({content}) {
+function Response({ content, isLoading }) {
   return (
       <>
         <div className="response is-flex px-5 py-5">
@@ -12,9 +12,15 @@ function Response({content}) {
             <div className="author has-text-white has-text-weight-bold mb-2">
               Response:
             </div>
-            <div className="info has-text-white">
-              <p>{content}</p>
-            </div>
+            {isLoading ? (
+              <div className="info has-text-white">
+                <p>response is loading...</p>
+              </div>
+              ): (
+                <div className="info has-text-white">
+                  <p>{content}</p>
+                </div>
+              )}
           </div>
         </div>
       </>

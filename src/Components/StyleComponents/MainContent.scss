@@ -65,3 +65,9 @@
 .control.has-icons-right .icon {
   height: 3.5em !important;
 }
+.sendButton {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}

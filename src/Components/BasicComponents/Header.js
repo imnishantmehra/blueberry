@@ -32,7 +32,7 @@ function Header() {
               </Link>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link className="navbar-link" to="">
-                  <figure className="image  is-user-avatar">
+                  <figure className="image is-user-avatar profileImage">
                     <img class="is-rounded" src={user.picture} alt="" />
                   </figure>
                   <span className="ml-2 has-text-white ">{user.nickname}</span>
