@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '../../StyleComponents/MainContent.scss'
 import tabsData from '../../../json/tabs.json';
+import { Link } from "react-router-dom";
 
 function TabItems({ activeTab, setActiveTab }) {
   const [tabNames, setTabNames] = useState([]);
@@ -13,7 +14,7 @@ function TabItems({ activeTab, setActiveTab }) {
         <ul>
           {tabNames.map(tab => (
             <li key={tab.id} className={activeTab === tab.id ? "is-active" : ""}>
-              <a onClick={() => setActiveTab(tab.id)}>{tab.name}</a>
+              <Link onClick={() => setActiveTab(tab.id)}>{tab.name}</Link>
             </li>
           ))}
         </ul>
