@@ -8,8 +8,8 @@ function ChatMessage({ activeTab, chatHistory }) {
   chatHistory[0] = { request: selectedTab.request, response: selectedTab.content, tab: activeTab }
   return (
       <div
-        className="content"
-        style={{ maxHeight: "400px", overflowY: "auto" }}
+        className="style-3 content"
+        style={{ height: "calc(100vh - 245px)", overflowY: "auto" }}
       >
         {selectedTab && (
           <p>
