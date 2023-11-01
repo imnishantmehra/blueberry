@@ -71,12 +71,9 @@
   top: 16px;
   cursor: pointer;
 }
-$background-color_1: #000 ;
-$background-color_2: #181921;
 
 .style-3 {
 	&::-webkit-scrollbar-track {
-	
 		background-color: $background-color_1;
 	}
 	&::-webkit-scrollbar {
